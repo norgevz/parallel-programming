@@ -1,11 +1,11 @@
 
-#Compilation
+# Compilation
 
 	For compiling all the program, there is a Makefile. You only need to run the following command
 
 	$ make
 
-#Re-Compilation
+# Re-Compilation
 
 	For re-compiling your program you just need to clean your old files and compile again with the following sequence of commands:
 
@@ -13,7 +13,7 @@
 
 	$ make
 
-#Display informations
+# Display informations
 	
 	when you want to run experiments, you can disable the display by setting the following environment variable
 
@@ -27,7 +27,7 @@
 
 	$ unset MANDEL_NO_DISPLAY
 
-#Execution
+# Execution
 	
 	Parameters:	
 	$ ./seq [size of the image] [number of iterations]
